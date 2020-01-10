@@ -1,0 +1,72 @@
+/* For testing */
+
+@import 'test.css';
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+.meme-gen {
+    display: flex;
+    justify-content: center;
+}
+.meme-gen__container {
+    width: 550px;
+    height: 600px;
+    margin: 10px;
+    border: 2px solid black;
+} 
+.meme-gen__container--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+}
+.meme-gen__result {
+    position: relative;
+    display: inline-block;
+}
+.meme-gen__img-result {
+    max-width: 400px; 
+}
+.meme-gen__caption-result {
+    position: absolute;
+    bottom: 0px;
+    width: 100%; 
+    font-family: 'Bevan', cursive;
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.thumbnail-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px;
+}
+.thumbnail-img:hover {
+    cursor: pointer;
+}
+.caption-input-container {
+    display: flex;
+    justify-content: center;
+}
+

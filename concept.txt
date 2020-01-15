@@ -1,0 +1,15 @@
+Basic concept:
+-Choose an image for a meme (selection of images):
+--Gallery (bunch of images to choose from);
+--Display image that is chosen;
+-Add a dynamic caption to an image:
+--Input field for caption and submit btn;
+---On click use JS to pick up input "values" that user typed in; 
+--Input content is stored in a variable;
+--Input content is added to a caption container;
+-Download meme as a png:
+--External tool for making png;
+--trigger action for downloading;
+
+Ideas:
+-Meme "randomizer" - random image from a pinterest, google image search, etc.;
